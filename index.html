@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event Guest List Manager</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./src/index.js" defer></script>
 </head>
 <body>
+    <div id="container">
+        <h1 id="main-header">Event Guest List Manager</h1>
+    <div id="form">
+        <form id="form">
+            <label for ="guestName">Guest Name:</label>
+            <input type="text" id="guest-name" placeholder="enter guest name" required><br>
+            <input type="reset">
+        </form>
+    </div>
+    <div id="button">
+        <button type="submit">add another guest</button>
+    </div>
+    <div id="selector">
+        <select>
+            <option value="friend">Friend</option>
+            <option value="family">Family</option>
+            <option value="colleague">Colleague</option>
+        </select>
+    </div>
+    <div id="guest-list">
+        <ul>Guest List</ul>
+    </div>
+    </div>
     
 </body>
 </html>

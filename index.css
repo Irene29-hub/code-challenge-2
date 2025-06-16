@@ -1,0 +1,21 @@
+*{
+    font-size: medium;
+    font-style: italic;
+}
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: left;
+    font-size: large;
+}
+.main-header {
+    color: blue;
+}
+
+#input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
